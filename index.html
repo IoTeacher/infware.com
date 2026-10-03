@@ -13,7 +13,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&display=swap" rel="stylesheet">
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"LocalBusiness","name":"Infware","url":"https://www.infware.com","email":"contacto@infware.com","telephone":"+52-664-633-0429",
+{"@context":"https://schema.org","@type":"LocalBusiness","name":"Infware","url":"https://www.infware.com","email":"ventas@infware.com","telephone":"+52-664-633-0429",
 "address":{"@type":"PostalAddress","addressLocality":"Tijuana","addressRegion":"Baja California","addressCountry":"MX"},
 "description":"Soporte técnico en TI, venta de equipos, desarrollo de software y capacitación en IA y TICs."}
 </script>
@@ -126,7 +126,7 @@ footer{border-top:1px solid var(--border);padding:30px 0;color:var(--muted);font
     <h2>Hablemos de tu proyecto</h2>
     <p>Cuéntanos qué necesitas y te enviamos una cotización sin compromiso.</p>
     <p><strong>📍 Ubicación:</strong> Tijuana, Baja California, México</p>
-    <p><strong>✉️ Correo:</strong> <a href="mailto:contacto@infware.com">contacto@infware.com</a></p>
+    <p><strong>✉️ Correo:</strong> <a href="mailto:ventas@infware.com">ventas@infware.com</a></p>
     <p><strong>📞 Teléfono / buzón de voz:</strong> <a href="tel:+526646330429">+52 664 633 0429</a></p>
     <p><strong>🕘 Horario:</strong> Lunes a viernes, 9:00 – 18:00</p>
   </div>
@@ -148,7 +148,7 @@ document.getElementById('y').textContent=new Date().getFullYear();
 document.getElementById('f').addEventListener('submit',e=>{
   e.preventDefault();const d=new FormData(e.target);
   const body=`Nombre: ${d.get('nombre')}\nCorreo: ${d.get('correo')}\nServicio: ${d.get('servicio')}\n\n${d.get('mensaje')}`;
-  location.href=`mailto:contacto@infware.com?subject=${encodeURIComponent('Solicitud: '+d.get('servicio'))}&body=${encodeURIComponent(body)}`;
+  location.href=`mailto:ventas@infware.com?subject=${encodeURIComponent('Solicitud: '+d.get('servicio'))}&body=${encodeURIComponent(body)}`;
 });
 </script>
 </body>
