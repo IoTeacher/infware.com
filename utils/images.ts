@@ -16,7 +16,7 @@ export const imageCredits = [
   { label: 'Soporte técnico', id: '1573164713988-8665fc963095' },
   { label: 'Cableado de red', id: '1544197150-b99a580bb7a8' },
   { label: 'Ciberseguridad', id: '1550751827-4bd374c3f58b' },
-  { label: 'Rack de servidores', id: '1597852074816-d933c7d2b988' },
+  { label: 'Almacenamiento (disco duro)', id: '1597852074816-d933c7d2b988' },
   { label: 'Red global / nube', id: '1451187580459-43490279c0fa' },
   { label: 'Infraestructura TI', id: '1600267185393-e158a98703de' },
 ].map((c) => ({ ...c, url: `https://unsplash.com/photos/${c.id}` }));

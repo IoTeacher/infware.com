@@ -16,7 +16,7 @@ export default function SolutionsSection() {
             text="Planeamos, implementamos y documentamos. Al terminar, tu equipo recibe diagramas, credenciales y un plan de mantenimiento."
           />
           <Reveal delay={0.1} className="relative mt-10 hidden aspect-[4/3] overflow-hidden rounded-2xl ring-1 ring-white/10 lg:block">
-            <Image src={images.rack} alt="Rack de servidores con cableado organizado" fill sizes="40vw" className="object-cover" />
+            <Image src={images.rack} alt="Interior de un disco duro de servidor" fill sizes="40vw" className="object-cover" />
             <div className="absolute inset-0 bg-gradient-to-tr from-ink-950/80 via-transparent to-neon-violet/20" />
           </Reveal>
         </div>
