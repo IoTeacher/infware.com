@@ -56,42 +56,36 @@ export const hostingServices = [
     name: 'Registro de dominios',
     description: 'Registro y renovación de .com, .mx, .com.mx y más de 300 extensiones.',
     benefit: 'Tu dominio a tu nombre, con renovación automática y bloqueo de transferencia.',
-    price: 'Desde $299 MXN/año',
   },
   {
     icon: 'dns' as IconName,
     name: 'Administración DNS',
     description: 'Gestión de registros A, CNAME, MX, TXT, SPF, DKIM y DMARC.',
     benefit: 'Correo que llega a la bandeja de entrada y cambios sin tiempo fuera.',
-    price: 'Incluido con dominio',
   },
   {
     icon: 'lock' as IconName,
     name: 'Certificados SSL',
     description: 'Certificados DV, OV y Wildcard instalados y renovados por nosotros.',
     benefit: 'Candado HTTPS, confianza del cliente y mejor posicionamiento.',
-    price: 'Desde $0 con hosting',
   },
   {
     icon: 'cloud' as IconName,
     name: 'Hosting compartido',
     description: 'Alojamiento con discos NVMe, correo corporativo y panel de control.',
     benefit: 'Ideal para sitios corporativos, landing pages y WordPress.',
-    price: 'Desde $99 MXN/mes',
   },
   {
     icon: 'building' as IconName,
     name: 'Hosting empresarial',
     description: 'Recursos dedicados, respaldos diarios y soporte prioritario.',
     benefit: 'Rendimiento estable para tiendas en línea y sitios con tráfico alto.',
-    price: 'Desde $349 MXN/mes',
   },
   {
     icon: 'cpu' as IconName,
     name: 'VPS (servidores virtuales)',
     description: 'Servidores Linux con acceso root, IP dedicada y escalamiento bajo demanda.',
     benefit: 'Control total para aplicaciones, APIs, ERPs y entornos de pruebas.',
-    price: 'Desde $199 MXN/mes',
   },
 ];
 

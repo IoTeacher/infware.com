@@ -30,7 +30,6 @@ export default function HostingSection() {
                   <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-gradient-to-br from-neon-cyan/20 via-neon-blue/15 to-neon-violet/25 text-white ring-1 ring-white/10">
                     <Icon name={h.icon} />
                   </div>
-                  <span className="rounded-full border border-neon-cyan/20 bg-neon-cyan/5 px-3 py-1 text-[11px] font-medium text-cyan-200">{h.price}</span>
                 </div>
                 <h3 className="mt-6 font-display text-xl font-semibold text-white">{h.name}</h3>
                 <p className="mt-2 text-sm leading-relaxed text-slate-400">{h.description}</p>
@@ -54,7 +53,6 @@ export default function HostingSection() {
             <a href="#contacto" className="btn-primary shrink-0">Cotizar migración</a>
           </div>
         </Reveal>
-        <p className="mt-4 text-xs text-slate-500">Precios de referencia en MXN, sujetos a cambio y a disponibilidad de la extensión o plan.</p>
       </div>
     </section>
   );
