@@ -4,7 +4,6 @@ import ServicesGrid from '@/components/ServicesGrid';
 import HostingSection from '@/components/HostingSection';
 import SolutionsSection from '@/components/SolutionsSection';
 import WhyInfware from '@/components/WhyInfware';
-import Testimonials from '@/components/Testimonials';
 import ContactForm from '@/components/ContactForm';
 import Footer from '@/components/Footer';
 import FloatingCTA from '@/components/FloatingCTA';
@@ -19,7 +18,6 @@ export default function Home() {
         <HostingSection />
         <SolutionsSection />
         <WhyInfware />
-        <Testimonials />
         <ContactForm />
       </main>
       <Footer />

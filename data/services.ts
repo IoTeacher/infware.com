@@ -138,29 +138,6 @@ export const stats = [
   { value: '1 día', label: 'Atención en sitio en Tijuana' },
 ];
 
-export const testimonials = [
-  {
-    quote: 'Desde que Infware administra nuestra red no hemos tenido una caída que afecte la producción. Responden rápido y documentan todo.',
-    name: 'Gerente de Operaciones',
-    company: 'Empresa manufacturera, Tijuana',
-  },
-  {
-    quote: 'Migraron nuestro correo y archivos a la nube en un fin de semana. El lunes todos trabajaban normal, sin pérdida de información.',
-    name: 'Directora Administrativa',
-    company: 'Despacho contable',
-  },
-  {
-    quote: 'Nos consolidaron dominios, DNS y certificados que estaban dispersos con tres proveedores. Ahora tenemos un solo punto de contacto.',
-    name: 'Coordinador de TI',
-    company: 'Institución educativa',
-  },
-  {
-    quote: 'El Wi-Fi de la planta era un problema constante. Rediseñaron la red y la cobertura es estable en todas las áreas.',
-    name: 'Jefe de Mantenimiento',
-    company: 'Centro logístico',
-  },
-];
-
 export const serviceOptions = [
   'Soporte técnico',
   'Redes y conectividad',
